@@ -61,20 +61,20 @@
   <text x="40" y="88" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#e6edf3">How I ship</text>
   <circle cx="120" cy="220" r="74" stroke="#161b22" stroke-width="16"/>
   <circle cx="120" cy="220" r="74" stroke="#22d3ee" stroke-width="16" stroke-linecap="butt"
-      stroke-dasharray="434.5 465" stroke-dashoffset="0" transform="rotate(-90 120 220)">
-      <animate attributeName="stroke-dasharray" values="0 465;434.5 465" dur="1s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#818cf8" stroke-width="16" stroke-linecap="butt"
-      stroke-dasharray="24.4 465" stroke-dashoffset="-437.5" transform="rotate(-90 120 220)">
-      <animate attributeName="stroke-dasharray" values="0 465;24.4 465" dur="1.2s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#e879f9" stroke-width="16" stroke-linecap="butt"
+      stroke-dasharray="437.6 465" stroke-dashoffset="0" transform="rotate(-90 120 220)">
+      <animate attributeName="stroke-dasharray" values="0 465;437.6 465" dur="1s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#818cf8" stroke-width="16" stroke-linecap="butt"
+      stroke-dasharray="21.3 465" stroke-dashoffset="-440.6" transform="rotate(-90 120 220)">
+      <animate attributeName="stroke-dasharray" values="0 465;21.3 465" dur="1.2s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#e879f9" stroke-width="16" stroke-linecap="butt"
       stroke-dasharray="0 465" stroke-dashoffset="-465" transform="rotate(-90 120 220)">
       <animate attributeName="stroke-dasharray" values="0 465;0 465" dur="1.4s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#34d399" stroke-width="16" stroke-linecap="butt"
       stroke-dasharray="0 465" stroke-dashoffset="-465" transform="rotate(-90 120 220)">
       <animate attributeName="stroke-dasharray" values="0 465;0 465" dur="1.6s" fill="freeze"/></circle>
-  <text x="120" y="226" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="800" fill="#e6edf3">356</text>
+  <text x="120" y="226" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="800" fill="#e6edf3">401</text>
   <text x="120" y="246" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" letter-spacing="2" fill="#6e7681">TOTAL</text>
   <g class="rise" style="animation-delay:0.2s">
     <rect x="232" y="158" width="10" height="10" rx="3" fill="#22d3ee"/>
     <text x="252" y="167" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b949e">Commits</text>
-    <text x="370" y="167" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#e6edf3">335</text></g><g class="rise" style="animation-delay:0.30000000000000004s">
+    <text x="370" y="167" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#e6edf3">380</text></g><g class="rise" style="animation-delay:0.30000000000000004s">
     <rect x="232" y="192" width="10" height="10" rx="3" fill="#818cf8"/>
     <text x="252" y="201" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b949e">Pull requests</text>
     <text x="370" y="201" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#e6edf3">21</text></g><g class="rise" style="animation-delay:0.4s">
@@ -88,56 +88,56 @@
   <text x="440" y="56" text-anchor="#818cf8" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">COMMIT CLOCK · IST</text>
   <text x="440" y="88" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#e6edf3">Peak hour: 3 PM</text>
   <circle cx="600" cy="246" r="34" fill="#0d1117" stroke="#30363d"/>
-  <line x1="600" y1="202" x2="600" y2="171.9" stroke="#7595f7" stroke-width="7" stroke-linecap="round" stroke-dasharray="30.1 30.1">
-      <animate attributeName="stroke-dashoffset" values="30.1;0" dur="0.6s" fill="freeze"/></line><line x1="611.4" y1="203.5" x2="621.2" y2="166.9" stroke="#8e8af8" stroke-width="7" stroke-linecap="round" stroke-dasharray="37.9 37.9">
-      <animate attributeName="stroke-dashoffset" values="37.9;0" dur="0.63s" fill="freeze"/></line><line x1="622" y1="207.9" x2="624.5" y2="203.6" stroke="#28cfef" stroke-width="7" stroke-linecap="round" stroke-dasharray="4.9 4.9">
-      <animate attributeName="stroke-dashoffset" values="4.9;0" dur="0.6599999999999999s" fill="freeze"/></line><line x1="631.1" y1="214.9" x2="636" y2="210" stroke="#2ecaef" stroke-width="7" stroke-linecap="round" stroke-dasharray="6.9 6.9">
-      <animate attributeName="stroke-dashoffset" values="6.9;0" dur="0.69s" fill="freeze"/></line><line x1="638.1" y1="224" x2="640.7" y2="222.5" stroke="#30363d" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 3">
+  <line x1="600" y1="202" x2="600" y2="179.3" stroke="#5ea6f4" stroke-width="7" stroke-linecap="round" stroke-dasharray="22.7 22.7">
+      <animate attributeName="stroke-dashoffset" values="22.7;0" dur="0.6s" fill="freeze"/></line><line x1="611.4" y1="203.5" x2="618.7" y2="176.1" stroke="#7099f6" stroke-width="7" stroke-linecap="round" stroke-dasharray="28.4 28.4">
+      <animate attributeName="stroke-dashoffset" values="28.4;0" dur="0.63s" fill="freeze"/></line><line x1="622" y1="207.9" x2="624.2" y2="204.1" stroke="#26d0ee" stroke-width="7" stroke-linecap="round" stroke-dasharray="4.4 4.4">
+      <animate attributeName="stroke-dashoffset" values="4.4;0" dur="0.6599999999999999s" fill="freeze"/></line><line x1="631.1" y1="214.9" x2="635.2" y2="210.8" stroke="#2bcdef" stroke-width="7" stroke-linecap="round" stroke-dasharray="5.8 5.8">
+      <animate attributeName="stroke-dashoffset" values="5.8;0" dur="0.69s" fill="freeze"/></line><line x1="638.1" y1="224" x2="640.7" y2="222.5" stroke="#30363d" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 3">
       <animate attributeName="stroke-dashoffset" values="3;0" dur="0.72s" fill="freeze"/></line><line x1="642.5" y1="234.6" x2="645.4" y2="233.8" stroke="#30363d" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 3">
       <animate attributeName="stroke-dashoffset" values="3;0" dur="0.75s" fill="freeze"/></line><line x1="644" y1="246" x2="647" y2="246" stroke="#30363d" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 3">
-      <animate attributeName="stroke-dashoffset" values="3;0" dur="0.78s" fill="freeze"/></line><line x1="642.5" y1="257.4" x2="647.3" y2="258.7" stroke="#28cfef" stroke-width="7" stroke-linecap="round" stroke-dasharray="4.9 4.9">
-      <animate attributeName="stroke-dashoffset" values="4.9;0" dur="0.8099999999999999s" fill="freeze"/></line><line x1="638.1" y1="268" x2="664.2" y2="283.1" stroke="#7595f7" stroke-width="7" stroke-linecap="round" stroke-dasharray="30.1 30.1">
-      <animate attributeName="stroke-dashoffset" values="30.1;0" dur="0.84s" fill="freeze"/></line><line x1="631.1" y1="277.1" x2="648.3" y2="294.3" stroke="#63a2f5" stroke-width="7" stroke-linecap="round" stroke-dasharray="24.3 24.3">
-      <animate attributeName="stroke-dashoffset" values="24.3;0" dur="0.87s" fill="freeze"/></line><line x1="622" y1="284.1" x2="638" y2="311.9" stroke="#7b90f7" stroke-width="7" stroke-linecap="round" stroke-dasharray="32.1 32.1">
-      <animate attributeName="stroke-dashoffset" values="32.1;0" dur="0.8999999999999999s" fill="freeze"/></line><line x1="611.4" y1="288.5" x2="613.2" y2="295.1" stroke="#2ecaef" stroke-width="7" stroke-linecap="round" stroke-dasharray="6.9 6.9">
-      <animate attributeName="stroke-dashoffset" values="6.9;0" dur="0.9299999999999999s" fill="freeze"/></line><line x1="600" y1="290" x2="600" y2="316.3" stroke="#699ef6" stroke-width="7" stroke-linecap="round" stroke-dasharray="26.3 26.3">
-      <animate attributeName="stroke-dashoffset" values="26.3;0" dur="0.96s" fill="freeze"/></line><line x1="588.6" y1="288.5" x2="573.3" y2="345.7" stroke="#d57df9" stroke-width="7" stroke-linecap="round" stroke-dasharray="59.2 59.2">
-      <animate attributeName="stroke-dashoffset" values="59.2;0" dur="0.99s" fill="freeze"/></line><line x1="578" y1="284.1" x2="560" y2="315.2" stroke="#878bf8" stroke-width="7" stroke-linecap="round" stroke-dasharray="35.9 35.9">
-      <animate attributeName="stroke-dashoffset" values="35.9;0" dur="1.02s" fill="freeze"/></line><line x1="568.9" y1="277.1" x2="522.9" y2="323.1" stroke="#e879f9" stroke-width="7" stroke-linecap="round" stroke-dasharray="65 65">
-      <animate attributeName="stroke-dashoffset" values="65;0" dur="1.0499999999999998s" fill="freeze"/></line><line x1="561.9" y1="268" x2="534.1" y2="284" stroke="#7b90f7" stroke-width="7" stroke-linecap="round" stroke-dasharray="32.1 32.1">
-      <animate attributeName="stroke-dashoffset" values="32.1;0" dur="1.08s" fill="freeze"/></line><line x1="557.5" y1="257.4" x2="520.9" y2="267.2" stroke="#8e8af8" stroke-width="7" stroke-linecap="round" stroke-dasharray="37.9 37.9">
-      <animate attributeName="stroke-dashoffset" values="37.9;0" dur="1.1099999999999999s" fill="freeze"/></line><line x1="556" y1="246" x2="522" y2="246" stroke="#818cf8" stroke-width="7" stroke-linecap="round" stroke-dasharray="34 34">
-      <animate attributeName="stroke-dashoffset" values="34;0" dur="1.1400000000000001s" fill="freeze"/></line><line x1="557.5" y1="234.6" x2="535.9" y2="228.8" stroke="#5da7f4" stroke-width="7" stroke-linecap="round" stroke-dasharray="22.4 22.4">
-      <animate attributeName="stroke-dashoffset" values="22.4;0" dur="1.17s" fill="freeze"/></line><line x1="561.9" y1="224" x2="534.1" y2="208" stroke="#7b90f7" stroke-width="7" stroke-linecap="round" stroke-dasharray="32.1 32.1">
-      <animate attributeName="stroke-dashoffset" values="32.1;0" dur="1.2s" fill="freeze"/></line><line x1="568.9" y1="214.9" x2="544.8" y2="190.8" stroke="#818cf8" stroke-width="7" stroke-linecap="round" stroke-dasharray="34 34">
-      <animate attributeName="stroke-dashoffset" values="34;0" dur="1.23s" fill="freeze"/></line><line x1="578" y1="207.9" x2="552.3" y2="163.3" stroke="#bb81f9" stroke-width="7" stroke-linecap="round" stroke-dasharray="51.4 51.4">
-      <animate attributeName="stroke-dashoffset" values="51.4;0" dur="1.2599999999999998s" fill="freeze"/></line><line x1="588.6" y1="203.5" x2="579.3" y2="168.8" stroke="#878bf8" stroke-width="7" stroke-linecap="round" stroke-dasharray="35.9 35.9">
-      <animate attributeName="stroke-dashoffset" values="35.9;0" dur="1.29s" fill="freeze"/></line><text x="600" y="126" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">12a</text><text x="724" y="250" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">6a</text><text x="600" y="374" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">12p</text><text x="476" y="250" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">6p</text>
-  <text x="600" y="251" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="800" fill="#e6edf3">300</text>
+      <animate attributeName="stroke-dashoffset" values="3;0" dur="0.78s" fill="freeze"/></line><line x1="642.5" y1="257.4" x2="646.8" y2="258.5" stroke="#26d0ee" stroke-width="7" stroke-linecap="round" stroke-dasharray="4.4 4.4">
+      <animate attributeName="stroke-dashoffset" values="4.4;0" dur="0.8099999999999999s" fill="freeze"/></line><line x1="638.1" y1="268" x2="657.8" y2="279.4" stroke="#5ea6f4" stroke-width="7" stroke-linecap="round" stroke-dasharray="22.7 22.7">
+      <animate attributeName="stroke-dashoffset" values="22.7;0" dur="0.84s" fill="freeze"/></line><line x1="631.1" y1="277.1" x2="644.2" y2="290.2" stroke="#52b0f3" stroke-width="7" stroke-linecap="round" stroke-dasharray="18.5 18.5">
+      <animate attributeName="stroke-dashoffset" values="18.5;0" dur="0.87s" fill="freeze"/></line><line x1="622" y1="284.1" x2="634.1" y2="305" stroke="#63a3f5" stroke-width="7" stroke-linecap="round" stroke-dasharray="24.1 24.1">
+      <animate attributeName="stroke-dashoffset" values="24.1;0" dur="0.8999999999999999s" fill="freeze"/></line><line x1="611.4" y1="288.5" x2="612.9" y2="294.1" stroke="#2bcdef" stroke-width="7" stroke-linecap="round" stroke-dasharray="5.8 5.8">
+      <animate attributeName="stroke-dashoffset" values="5.8;0" dur="0.9299999999999999s" fill="freeze"/></line><line x1="600" y1="290" x2="600" y2="309.9" stroke="#56acf3" stroke-width="7" stroke-linecap="round" stroke-dasharray="19.9 19.9">
+      <animate attributeName="stroke-dashoffset" values="19.9;0" dur="0.96s" fill="freeze"/></line><line x1="588.6" y1="288.5" x2="577.3" y2="330.9" stroke="#a286f8" stroke-width="7" stroke-linecap="round" stroke-dasharray="43.9 43.9">
+      <animate attributeName="stroke-dashoffset" values="43.9;0" dur="0.99s" fill="freeze"/></line><line x1="578" y1="284.1" x2="558.2" y2="318.4" stroke="#9489f8" stroke-width="7" stroke-linecap="round" stroke-dasharray="39.6 39.6">
+      <animate attributeName="stroke-dashoffset" values="39.6;0" dur="1.02s" fill="freeze"/></line><line x1="568.9" y1="277.1" x2="522.9" y2="323.1" stroke="#e879f9" stroke-width="7" stroke-linecap="round" stroke-dasharray="65 65">
+      <animate attributeName="stroke-dashoffset" values="65;0" dur="1.0499999999999998s" fill="freeze"/></line><line x1="561.9" y1="268" x2="532.5" y2="285" stroke="#818cf8" stroke-width="7" stroke-linecap="round" stroke-dasharray="34 34">
+      <animate attributeName="stroke-dashoffset" values="34;0" dur="1.08s" fill="freeze"/></line><line x1="557.5" y1="257.4" x2="520.6" y2="267.3" stroke="#8f89f8" stroke-width="7" stroke-linecap="round" stroke-dasharray="38.2 38.2">
+      <animate attributeName="stroke-dashoffset" values="38.2;0" dur="1.1099999999999999s" fill="freeze"/></line><line x1="556" y1="246" x2="530.5" y2="246" stroke="#679ff5" stroke-width="7" stroke-linecap="round" stroke-dasharray="25.5 25.5">
+      <animate attributeName="stroke-dashoffset" values="25.5;0" dur="1.1400000000000001s" fill="freeze"/></line><line x1="557.5" y1="234.6" x2="539.6" y2="229.8" stroke="#52b0f3" stroke-width="7" stroke-linecap="round" stroke-dasharray="18.5 18.5">
+      <animate attributeName="stroke-dashoffset" values="18.5;0" dur="1.17s" fill="freeze"/></line><line x1="561.9" y1="224" x2="537.3" y2="209.8" stroke="#7099f6" stroke-width="7" stroke-linecap="round" stroke-dasharray="28.4 28.4">
+      <animate attributeName="stroke-dashoffset" values="28.4;0" dur="1.2s" fill="freeze"/></line><line x1="568.9" y1="214.9" x2="545.8" y2="191.8" stroke="#7d8ff8" stroke-width="7" stroke-linecap="round" stroke-dasharray="32.6 32.6">
+      <animate attributeName="stroke-dashoffset" values="32.6;0" dur="1.23s" fill="freeze"/></line><line x1="578" y1="207.9" x2="558.2" y2="173.6" stroke="#9489f8" stroke-width="7" stroke-linecap="round" stroke-dasharray="39.6 39.6">
+      <animate attributeName="stroke-dashoffset" values="39.6;0" dur="1.2599999999999998s" fill="freeze"/></line><line x1="588.6" y1="203.5" x2="581.6" y2="177.5" stroke="#6b9cf6" stroke-width="7" stroke-linecap="round" stroke-dasharray="27 27">
+      <animate attributeName="stroke-dashoffset" values="27;0" dur="1.29s" fill="freeze"/></line><text x="600" y="126" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">12a</text><text x="724" y="250" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">6a</text><text x="600" y="374" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">12p</text><text x="476" y="250" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#6e7681">6p</text>
+  <text x="600" y="251" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="800" fill="#e6edf3">345</text>
   <text x="600" y="266" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.5" letter-spacing="1.5" fill="#6e7681">COMMITS</text>
 
   <text x="840" y="56" text-anchor="#e879f9" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">WEEKLY RHYTHM</text>
-  <text x="840" y="88" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#e6edf3">Most active on Mondays</text>
+  <text x="840" y="88" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#e6edf3">Most active on Saturdays</text>
   <rect x="850" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0s" x="850" y="168" width="30" height="150" rx="8" fill="url(#wg0)"/>
-      <text x="865" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#e6edf3">Mon</text>
-      <linearGradient id="wg0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e879f9"/><stop offset="1" stop-color="#5d3064"/></linearGradient><rect x="894" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0.08s" x="894" y="291.1" width="30" height="26.9" rx="8" fill="url(#wg1)"/>
+      <rect class="gy" style="animation-delay:0s" x="850" y="206" width="30" height="112" rx="8" fill="url(#wg0)"/>
+      <text x="865" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Mon</text>
+      <linearGradient id="wg0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b483f8"/><stop offset="1" stop-color="#483463"/></linearGradient><rect x="894" y="168" width="30" height="150" rx="8" fill="#161b22"/>
+      <rect class="gy" style="animation-delay:0.08s" x="894" y="297.9" width="30" height="20.1" rx="8" fill="url(#wg1)"/>
       <text x="909" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Tue</text>
-      <linearGradient id="wg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#44baf2"/><stop offset="1" stop-color="#1b4a61"/></linearGradient><rect x="938" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0.16s" x="938" y="310.9" width="30" height="7.1" rx="8" fill="url(#wg2)"/>
+      <linearGradient id="wg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3bc0f1"/><stop offset="1" stop-color="#184d60"/></linearGradient><rect x="938" y="168" width="30" height="150" rx="8" fill="#161b22"/>
+      <rect class="gy" style="animation-delay:0.16s" x="938" y="312.7" width="30" height="5.3" rx="8" fill="url(#wg2)"/>
       <text x="953" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Wed</text>
-      <linearGradient id="wg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bccef"/><stop offset="1" stop-color="#115260"/></linearGradient><rect x="982" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0.24s" x="982" y="282.6" width="30" height="35.4" rx="8" fill="url(#wg3)"/>
+      <linearGradient id="wg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#29ceef"/><stop offset="1" stop-color="#105260"/></linearGradient><rect x="982" y="168" width="30" height="150" rx="8" fill="#161b22"/>
+      <rect class="gy" style="animation-delay:0.24s" x="982" y="291.6" width="30" height="26.4" rx="8" fill="url(#wg3)"/>
       <text x="997" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Thu</text>
-      <linearGradient id="wg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fb2f3"/><stop offset="1" stop-color="#204761"/></linearGradient><rect x="1026" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0.32s" x="1026" y="183.6" width="30" height="134.4" rx="8" fill="url(#wg4)"/>
+      <linearGradient id="wg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#43baf2"/><stop offset="1" stop-color="#1b4a61"/></linearGradient><rect x="1026" y="168" width="30" height="150" rx="8" fill="#161b22"/>
+      <rect class="gy" style="animation-delay:0.32s" x="1026" y="217.6" width="30" height="100.4" rx="8" fill="url(#wg4)"/>
       <text x="1041" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Fri</text>
-      <linearGradient id="wg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d37df9"/><stop offset="1" stop-color="#543264"/></linearGradient><rect x="1070" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0.4s" x="1070" y="180.7" width="30" height="137.3" rx="8" fill="url(#wg5)"/>
-      <text x="1085" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Sat</text>
-      <linearGradient id="wg5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d77cf9"/><stop offset="1" stop-color="#563264"/></linearGradient><rect x="1114" y="168" width="30" height="150" rx="8" fill="#161b22"/>
-      <rect class="gy" style="animation-delay:0.48s" x="1114" y="265.6" width="30" height="52.4" rx="8" fill="url(#wg6)"/>
+      <linearGradient id="wg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a486f8"/><stop offset="1" stop-color="#423663"/></linearGradient><rect x="1070" y="168" width="30" height="150" rx="8" fill="#161b22"/>
+      <rect class="gy" style="animation-delay:0.4s" x="1070" y="168" width="30" height="150" rx="8" fill="url(#wg5)"/>
+      <text x="1085" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#e6edf3">Sat</text>
+      <linearGradient id="wg5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e879f9"/><stop offset="1" stop-color="#5d3064"/></linearGradient><rect x="1114" y="168" width="30" height="150" rx="8" fill="#161b22"/>
+      <rect class="gy" style="animation-delay:0.48s" x="1114" y="278.9" width="30" height="39.1" rx="8" fill="url(#wg6)"/>
       <text x="1129" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#6e7681">Sun</text>
-      <linearGradient id="wg6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64a1f5"/><stop offset="1" stop-color="#284062"/></linearGradient>
+      <linearGradient id="wg6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#54aef3"/><stop offset="1" stop-color="#224661"/></linearGradient>
 </svg>
