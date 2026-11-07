@@ -91,7 +91,7 @@ function overview(u) {
     [fmt(total), "CONTRIBUTIONS", "last 12 months"],
     [fmt(cc.totalCommitContributions), "COMMITS", "last 12 months"],
     [fmt(u.pullRequests.totalCount), "PULL REQUESTS", "all time"],
-    [fmt(u.repositories.totalCount), "REPOSITORIES", `${stars} ★ earned`],
+    [fmt(u.repositories.totalCount), "REPOSITORIES", stars > 0 ? `${stars} ★ earned` : "original work"],
     [`${current}d`, "CURRENT STREAK", `longest ${longest}d`],
   ];
   const W = 1200, colW = (W - 128) / kpis.length;
