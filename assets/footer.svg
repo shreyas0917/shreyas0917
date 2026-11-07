@@ -1,14 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" fill="none">
 <defs>
-  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#A8823C"/>
-    <stop offset="0.35" stop-color="#E3C178"/>
-    <stop offset="0.5" stop-color="#F6E7C1"/>
-    <stop offset="0.65" stop-color="#E3C178"/>
-    <stop offset="1" stop-color="#A8823C"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/>
-  </linearGradient></defs>
-<path d="M596 18l4-4 4 4-4 4z" fill="#E3C178"/>
-<text x="600" y="62" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="28" font-style="italic" fill="url(#gold)">Designed for the failure case.</text>
-<text x="600" y="94" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="4" fill="#5B564A">SHREYAS WANI · PUNE, INDIA</text>
+  <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="0.5" stop-color="#818cf8"/>
+    <stop offset="1" stop-color="#e879f9"/>
+  </linearGradient>
+  <linearGradient id="auroraMove" x1="0" y1="0" x2="2" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="0.33" stop-color="#818cf8"/>
+    <stop offset="0.66" stop-color="#e879f9"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-1 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#161b22" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#0d1117" stop-opacity="0.95"/>
+  </linearGradient>
+  <linearGradient id="spin" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.45" stop-color="#22d3ee" stop-opacity="0.9"/>
+    <stop offset="0.55" stop-color="#e879f9" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#e879f9" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="blur40" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="40"/></filter></defs>
+<style>
+  @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+  @keyframes floatS { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .35 } }
+  @keyframes ping { 0% { transform: scale(1); opacity: .8 } 100% { transform: scale(2.6); opacity: 0 } }
+  @keyframes rise { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: translateY(0) } }
+  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes drift { 0%,100% { transform: translate(0,0) } 50% { transform: translate(40px,-20px) } }
+  @keyframes dash { to { stroke-dashoffset: 0 } }
+  @keyframes sweep { 0% { transform: translateX(-30%) } 100% { transform: translateX(130%) } }
+  .float { animation: float 6s ease-in-out infinite; }
+  .floatS { animation: floatS 4s ease-in-out infinite; }
+  .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+  .fade { animation: fadeIn 1.2s ease both; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ping 2s cubic-bezier(0,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  .drift { animation: drift 14s ease-in-out infinite; }</style>
+
+  <path d="M40 60 H250 L262 30 L276 92 L290 44 L300 60 H880 L892 22 L906 98 L920 48 L930 60 H1160" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M40 60 H250 L262 30 L276 92 L290 44 L300 60 H880 L892 22 L906 98 L920 48 L930 60 H1160" stroke="url(#aurora)" stroke-width="2" filter="url(#glow)" stroke-dasharray="260 1600">
+    <animate attributeName="stroke-dashoffset" from="1600" to="-260" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <rect x="440" y="44" width="320" height="34" rx="17" fill="#0d1117"/>
+  <text x="600" y="67" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Designed for the failure case.</text>
+  <text x="600" y="118" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="3" fill="#6e7681">SHREYAS WANI · SHREYASWANI.VERCEL.APP</text>
 </svg>

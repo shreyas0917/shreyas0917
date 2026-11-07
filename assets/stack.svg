@@ -1,51 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="386" viewBox="0 0 1200 386" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" fill="none">
 <defs>
-  
-  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#A8823C"/>
-    <stop offset="0.35" stop-color="#E3C178"/>
-    <stop offset="0.5" stop-color="#F6E7C1"/>
-    <stop offset="0.65" stop-color="#E3C178"/>
-    <stop offset="1" stop-color="#A8823C"/>
-    
+  <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="0.5" stop-color="#818cf8"/>
+    <stop offset="1" stop-color="#e879f9"/>
   </linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#E3C178" stop-opacity="0.55"/>
-    <stop offset="0.5" stop-color="#2A2419" stop-opacity="1"/>
-    <stop offset="1" stop-color="#E3C178" stop-opacity="0.35"/>
+  <linearGradient id="auroraMove" x1="0" y1="0" x2="2" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="0.33" stop-color="#818cf8"/>
+    <stop offset="0.66" stop-color="#e879f9"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-1 0" dur="6s" repeatCount="indefinite"/>
   </linearGradient>
-  
-</defs>
-<rect x="0.5" y="0.5" width="1199" height="385" rx="16" fill="#0A0A0C" stroke="url(#edge)"/>
-<g stroke="#E3C178" stroke-opacity="0.7" stroke-width="1">
-    <path d="M14 32V14H32"/>
-    <path d="M1168 14H1186V32"/>
-    <path d="M14 354V372H32"/>
-    <path d="M1168 372H1186V354"/>
-  </g><text x="64" y="70" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="24" font-style="italic" fill="url(#gold)">Cloud</text><g transform="translate(300 46)"><rect width="52" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="26" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">AWS</text></g><g transform="translate(362 46)"><rect width="163" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="81.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Google Cloud · GKE</text></g><g transform="translate(535 46)"><rect width="141" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="70.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Microsoft Azure</text></g><g transform="translate(686 46)"><rect width="74" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="37" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Vercel</text></g><line x1="64" y1="94" x2="1136" y2="94" stroke="#2A2419" stroke-opacity="0.6"/><text x="64" y="132" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="24" font-style="italic" fill="url(#gold)">DevOps &amp; SRE</text><g transform="translate(300 108)"><rect width="74" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="37" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Docker</text></g><g transform="translate(384 108)"><rect width="104" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="52" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Kubernetes</text></g><g transform="translate(498 108)"><rect width="82" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="41" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Argo CD</text></g><g transform="translate(590 108)"><rect width="134" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="67" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">GitHub Actions</text></g><g transform="translate(734 108)"><rect width="104" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="52" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Prometheus</text></g><g transform="translate(848 108)"><rect width="82" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="41" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Grafana</text></g><g transform="translate(940 108)"><rect width="67" height="34" rx="17" fill="#0F0F13" stroke="#A8823C" stroke-opacity="0.7"/>
-            <text x="33.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#F6E7C1" fill-opacity="0.9">Linux</text></g><line x1="64" y1="156" x2="1136" y2="156" stroke="#2A2419" stroke-opacity="0.6"/><text x="64" y="194" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="24" font-style="italic" fill="url(#gold)">Backend</text><g transform="translate(300 170)"><rect width="45" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="22.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Go</text></g><g transform="translate(355 170)"><rect width="163" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="81.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Java · Spring Boot</text></g><g transform="translate(528 170)"><rect width="156" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="78" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Node.js · Express</text></g><g transform="translate(694 170)"><rect width="74" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="37" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Python</text></g><g transform="translate(778 170)"><rect width="82" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="41" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">SAP CAP</text></g><line x1="64" y1="218" x2="1136" y2="218" stroke="#2A2419" stroke-opacity="0.6"/><text x="64" y="256" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="24" font-style="italic" fill="url(#gold)">Data &amp; Streaming</text><g transform="translate(300 232)"><rect width="104" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="52" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">PostgreSQL</text></g><g transform="translate(414 232)"><rect width="67" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="33.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Redis</text></g><g transform="translate(491 232)"><rect width="67" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="33.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Kafka</text></g><g transform="translate(568 232)"><rect width="82" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="41" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">MongoDB</text></g><g transform="translate(660 232)"><rect width="67" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="33.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">MySQL</text></g><g transform="translate(737 232)"><rect width="89" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="44.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Supabase</text></g><line x1="64" y1="280" x2="1136" y2="280" stroke="#2A2419" stroke-opacity="0.6"/><text x="64" y="318" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="24" font-style="italic" fill="url(#gold)">Frontend</text><g transform="translate(300 294)"><rect width="67" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="33.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">React</text></g><g transform="translate(377 294)"><rect width="104" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="52" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">TypeScript</text></g><g transform="translate(491 294)"><rect width="119" height="34" rx="17" fill="#0F0F13" stroke="#2A2419" stroke-opacity="1"/>
-            <text x="59.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#ECE6D9" fill-opacity="0.9">Tailwind CSS</text></g>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#161b22" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#0d1117" stop-opacity="0.95"/>
+  </linearGradient>
+  <linearGradient id="spin" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.45" stop-color="#22d3ee" stop-opacity="0.9"/>
+    <stop offset="0.55" stop-color="#e879f9" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#e879f9" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="blur40" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="40"/></filter><clipPath id="clip"><rect x="1" y="1" width="1198" height="538" rx="20"/></clipPath></defs>
+<style>
+  @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+  @keyframes floatS { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .35 } }
+  @keyframes ping { 0% { transform: scale(1); opacity: .8 } 100% { transform: scale(2.6); opacity: 0 } }
+  @keyframes rise { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: translateY(0) } }
+  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes drift { 0%,100% { transform: translate(0,0) } 50% { transform: translate(40px,-20px) } }
+  @keyframes dash { to { stroke-dashoffset: 0 } }
+  @keyframes sweep { 0% { transform: translateX(-30%) } 100% { transform: translateX(130%) } }
+  .float { animation: float 6s ease-in-out infinite; }
+  .floatS { animation: floatS 4s ease-in-out infinite; }
+  .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+  .fade { animation: fadeIn 1.2s ease both; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ping 2s cubic-bezier(0,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  .drift { animation: drift 14s ease-in-out infinite; }</style>
+
+  <rect x="1" y="1" width="1198" height="538" rx="20" fill="url(#glass)" stroke="#30363d"/>
+  <rect x="1" y="1" width="1198" height="538" rx="20" fill="none" stroke="url(#aurora)" stroke-width="1.6" stroke-linecap="round"
+      stroke-dasharray="557 2923" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" from="3480" to="0" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  <g clip-path="url(#clip)" opacity="0.55">
+    <circle class="drift" cx="936" cy="189" r="150" fill="#818cf8" filter="url(#blur40)" opacity="0.35"/>
+    <circle class="drift" style="animation-delay:-5s;animation-duration:18s" cx="1104" cy="432" r="120" fill="#e879f9" filter="url(#blur40)" opacity="0.25"/>
+    <circle class="drift" style="animation-delay:-9s;animation-duration:20s" cx="144" cy="54" r="130" fill="#22d3ee" filter="url(#blur40)" opacity="0.18"/>
+  </g><g class="floatS" style="animation-delay:-2.4s;animation-duration:5s">
+      <polygon points="72,432 200,496 200,512 72,448" fill="#0a2a1f" stroke="#34d399" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,496 328,432 328,448 200,512" fill="#071e15" stroke="#34d399" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,368 328,432 200,496 72,432" fill="#0f3b2b" stroke="#34d399" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="200" cy="432" r="4" fill="#34d399" class="pulse" style="animation-delay:1.6s" filter="url(#glow)"/>
+    </g><g class="floatS" style="animation-delay:-1.7999999999999998s;animation-duration:5s">
+      <polygon points="72,350 200,414 200,430 72,366" fill="#072a30" stroke="#22d3ee" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,414 328,350 328,366 200,430" fill="#051e21" stroke="#22d3ee" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,286 328,350 200,414 72,350" fill="#0a3b43" stroke="#22d3ee" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="200" cy="350" r="4" fill="#22d3ee" class="pulse" style="animation-delay:1.2000000000000002s" filter="url(#glow)"/>
+    </g><g class="floatS" style="animation-delay:-1.2s;animation-duration:5s">
+      <polygon points="72,268 200,332 200,348 72,284" fill="#2e1832" stroke="#e879f9" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,332 328,268 328,284 200,348" fill="#201123" stroke="#e879f9" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,204 328,268 200,332 72,268" fill="#412246" stroke="#e879f9" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="200" cy="268" r="4" fill="#e879f9" class="pulse" style="animation-delay:0.8s" filter="url(#glow)"/>
+    </g><g class="floatS" style="animation-delay:-0.6s;animation-duration:5s">
+      <polygon points="72,186 200,250 200,266 72,202" fill="#1a1c32" stroke="#818cf8" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,250 328,186 328,202 200,266" fill="#121423" stroke="#818cf8" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,122 328,186 200,250 72,186" fill="#242745" stroke="#818cf8" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="200" cy="186" r="4" fill="#818cf8" class="pulse" style="animation-delay:0.4s" filter="url(#glow)"/>
+    </g><g class="floatS" style="animation-delay:-0s;animation-duration:5s">
+      <polygon points="72,104 200,168 200,184 72,120" fill="#211c32" stroke="#a78bfa" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,168 328,104 328,120 200,184" fill="#171323" stroke="#a78bfa" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="200,40 328,104 200,168 72,104" fill="#2f2746" stroke="#a78bfa" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="200" cy="104" r="4" fill="#a78bfa" class="pulse" style="animation-delay:0s" filter="url(#glow)"/>
+    </g><g class="rise" style="animation-delay:0s">
+      <path d="M328 104 H384" stroke="#a78bfa" stroke-opacity="0.5" stroke-dasharray="3 4"/>
+      <circle cx="328" cy="104" r="3" fill="#a78bfa"/>
+      <text x="396" y="102" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Frontend</text>
+      <text x="396" y="122" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8b949e">UI layer</text>
+      <g transform="translate(540 91)"><rect width="56" height="30" rx="9" fill="#0d1117" stroke="#5c4c8a"/>
+        <text x="28" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">React</text></g><g transform="translate(603 91)"><rect width="92" height="30" rx="9" fill="#0d1117" stroke="#5c4c8a"/>
+        <text x="46" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">TypeScript</text></g><g transform="translate(702 91)"><rect width="106" height="30" rx="9" fill="#0d1117" stroke="#5c4c8a"/>
+        <text x="53" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Tailwind CSS</text></g>
+    </g><g class="rise" style="animation-delay:0.15s">
+      <path d="M328 186 H384" stroke="#818cf8" stroke-opacity="0.5" stroke-dasharray="3 4"/>
+      <circle cx="328" cy="186" r="3" fill="#818cf8"/>
+      <text x="396" y="184" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Backend</text>
+      <text x="396" y="204" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8b949e">Services</text>
+      <g transform="translate(540 173)"><rect width="34" height="30" rx="9" fill="#0d1117" stroke="#474d88"/>
+        <text x="17" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Go</text></g><g transform="translate(581 173)"><rect width="150" height="30" rx="9" fill="#0d1117" stroke="#474d88"/>
+        <text x="75" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Java · Spring Boot</text></g><g transform="translate(738 173)"><rect width="142" height="30" rx="9" fill="#0d1117" stroke="#474d88"/>
+        <text x="71" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Node.js · Express</text></g><g transform="translate(887 173)"><rect width="63" height="30" rx="9" fill="#0d1117" stroke="#474d88"/>
+        <text x="31.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Python</text></g><g transform="translate(957 173)"><rect width="70" height="30" rx="9" fill="#0d1117" stroke="#474d88"/>
+        <text x="35" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">SAP CAP</text></g>
+    </g><g class="rise" style="animation-delay:0.3s">
+      <path d="M328 268 H384" stroke="#e879f9" stroke-opacity="0.5" stroke-dasharray="3 4"/>
+      <circle cx="328" cy="268" r="3" fill="#e879f9"/>
+      <text x="396" y="266" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Data &amp; Streaming</text>
+      <text x="396" y="286" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8b949e">State &amp; events</text>
+      <g transform="translate(540 255)"><rect width="92" height="30" rx="9" fill="#0d1117" stroke="#804389"/>
+        <text x="46" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">PostgreSQL</text></g><g transform="translate(639 255)"><rect width="56" height="30" rx="9" fill="#0d1117" stroke="#804389"/>
+        <text x="28" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Redis</text></g><g transform="translate(702 255)"><rect width="56" height="30" rx="9" fill="#0d1117" stroke="#804389"/>
+        <text x="28" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Kafka</text></g><g transform="translate(765 255)"><rect width="70" height="30" rx="9" fill="#0d1117" stroke="#804389"/>
+        <text x="35" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">MongoDB</text></g><g transform="translate(842 255)"><rect width="56" height="30" rx="9" fill="#0d1117" stroke="#804389"/>
+        <text x="28" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">MySQL</text></g><g transform="translate(905 255)"><rect width="78" height="30" rx="9" fill="#0d1117" stroke="#804389"/>
+        <text x="39" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Supabase</text></g>
+    </g><g class="rise" style="animation-delay:0.44999999999999996s">
+      <path d="M328 350 H384" stroke="#22d3ee" stroke-opacity="0.5" stroke-dasharray="3 4"/>
+      <circle cx="328" cy="350" r="3" fill="#22d3ee"/>
+      <text x="396" y="348" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#e6edf3">DevOps &amp; SRE</text>
+      <text x="396" y="368" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8b949e">Delivery · reliability</text>
+      <g transform="translate(540 337)"><rect width="63" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="31.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Docker</text></g><g transform="translate(610 337)"><rect width="92" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="46" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Kubernetes</text></g><g transform="translate(709 337)"><rect width="70" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="35" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Argo CD</text></g><g transform="translate(786 337)"><rect width="121" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="60.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">GitHub Actions</text></g><g transform="translate(914 337)"><rect width="92" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="46" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Prometheus</text></g><g transform="translate(1013 337)"><rect width="70" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="35" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Grafana</text></g><g transform="translate(1090 337)"><rect width="56" height="30" rx="9" fill="#0d1117" stroke="#137483"/>
+        <text x="28" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Linux</text></g>
+    </g><g class="rise" style="animation-delay:0.6s">
+      <path d="M328 432 H384" stroke="#34d399" stroke-opacity="0.5" stroke-dasharray="3 4"/>
+      <circle cx="328" cy="432" r="3" fill="#34d399"/>
+      <text x="396" y="430" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Cloud</text>
+      <text x="396" y="450" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8b949e">Infrastructure</text>
+      <g transform="translate(540 419)"><rect width="42" height="30" rx="9" fill="#0d1117" stroke="#1d7454"/>
+        <text x="21" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">AWS</text></g><g transform="translate(589 419)"><rect width="150" height="30" rx="9" fill="#0d1117" stroke="#1d7454"/>
+        <text x="75" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Google Cloud · GKE</text></g><g transform="translate(746 419)"><rect width="128" height="30" rx="9" fill="#0d1117" stroke="#1d7454"/>
+        <text x="64" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Microsoft Azure</text></g><g transform="translate(881 419)"><rect width="63" height="30" rx="9" fill="#0d1117" stroke="#1d7454"/>
+        <text x="31.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Vercel</text></g>
+    </g>
 </svg>

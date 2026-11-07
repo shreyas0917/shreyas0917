@@ -1,95 +1,156 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" fill="none">
 <defs>
-  
-  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#A8823C"/>
-    <stop offset="0.35" stop-color="#E3C178"/>
-    <stop offset="0.5" stop-color="#F6E7C1"/>
-    <stop offset="0.65" stop-color="#E3C178"/>
-    <stop offset="1" stop-color="#A8823C"/>
-    
+  <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="0.5" stop-color="#818cf8"/>
+    <stop offset="1" stop-color="#e879f9"/>
   </linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#E3C178" stop-opacity="0.55"/>
-    <stop offset="0.5" stop-color="#2A2419" stop-opacity="1"/>
-    <stop offset="1" stop-color="#E3C178" stop-opacity="0.35"/>
+  <linearGradient id="auroraMove" x1="0" y1="0" x2="2" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="0.33" stop-color="#818cf8"/>
+    <stop offset="0.66" stop-color="#e879f9"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-1 0" dur="6s" repeatCount="indefinite"/>
   </linearGradient>
-  
-  
-  <linearGradient id="goldS" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#A8823C"/>
-    <stop offset="0.35" stop-color="#E3C178"/>
-    <stop offset="0.5" stop-color="#F6E7C1"/>
-    <stop offset="0.65" stop-color="#E3C178"/>
-    <stop offset="1" stop-color="#A8823C"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#161b22" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#0d1117" stop-opacity="0.95"/>
   </linearGradient>
-  <radialGradient id="glow" cx="0.82" cy="0.45" r="0.55">
-    <stop offset="0" stop-color="#E3C178" stop-opacity="0.13"/>
-    <stop offset="1" stop-color="#E3C178" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#0A0A0C" stop-opacity="0.95"/>
-    <stop offset="0.6" stop-color="#0A0A0C" stop-opacity="0.55"/>
-    <stop offset="1" stop-color="#0A0A0C" stop-opacity="0.2"/>
+  <linearGradient id="spin" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.45" stop-color="#22d3ee" stop-opacity="0.9"/>
+    <stop offset="0.55" stop-color="#e879f9" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#e879f9" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#E3C178" stop-opacity="0.7"/>
-    <stop offset="1" stop-color="#E3C178" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="0.5" y="0.5" width="1199" height="379" rx="16" fill="#0A0A0C" stroke="url(#edge)"/>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="blur40" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="40"/></filter><clipPath id="clip"><rect x="1" y="1" width="1198" height="428" rx="20"/></clipPath>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="#818cf8" stroke-opacity="0.15"/></pattern>
+  <linearGradient id="gridFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.10"/><stop offset="1" stop-color="#e879f9" stop-opacity="0.08"/></linearGradient></defs>
+<style>
+  @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+  @keyframes floatS { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .35 } }
+  @keyframes ping { 0% { transform: scale(1); opacity: .8 } 100% { transform: scale(2.6); opacity: 0 } }
+  @keyframes rise { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: translateY(0) } }
+  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes drift { 0%,100% { transform: translate(0,0) } 50% { transform: translate(40px,-20px) } }
+  @keyframes dash { to { stroke-dashoffset: 0 } }
+  @keyframes sweep { 0% { transform: translateX(-30%) } 100% { transform: translateX(130%) } }
+  .float { animation: float 6s ease-in-out infinite; }
+  .floatS { animation: floatS 4s ease-in-out infinite; }
+  .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+  .fade { animation: fadeIn 1.2s ease both; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ping 2s cubic-bezier(0,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  .drift { animation: drift 14s ease-in-out infinite; }
+  @keyframes cycle { 0% { opacity:0; transform: translateY(8px) } 3% { opacity:1; transform: translateY(0) } 22% { opacity:1; transform: translateY(0) } 25% { opacity:0; transform: translateY(-8px) } 100% { opacity:0 } }
+  .role { opacity:0; animation: cycle 12s infinite; }</style>
 
-  <rect width="1200" height="380" rx="16" fill="url(#glow)"/>
-  <g opacity="0.35"><line x1="0" y1="0" x2="0" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="52" y1="0" x2="52" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="104" y1="0" x2="104" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="156" y1="0" x2="156" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="208" y1="0" x2="208" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="260" y1="0" x2="260" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="312" y1="0" x2="312" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="364" y1="0" x2="364" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="416" y1="0" x2="416" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="468" y1="0" x2="468" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="520" y1="0" x2="520" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="572" y1="0" x2="572" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="624" y1="0" x2="624" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="676" y1="0" x2="676" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="728" y1="0" x2="728" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="780" y1="0" x2="780" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="832" y1="0" x2="832" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="884" y1="0" x2="884" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="936" y1="0" x2="936" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="988" y1="0" x2="988" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="1040" y1="0" x2="1040" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="1092" y1="0" x2="1092" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="1144" y1="0" x2="1144" y2="380" stroke="#2A2419" stroke-opacity="0.35"/><line x1="1196" y1="0" x2="1196" y2="380" stroke="#2A2419" stroke-opacity="0.35"/></g>
-  <rect width="1200" height="380" rx="16" fill="url(#fade)"/>
-  <g stroke="#E3C178" stroke-opacity="0.7" stroke-width="1">
-    <path d="M14 32V14H32"/>
-    <path d="M1168 14H1186V32"/>
-    <path d="M14 348V366H32"/>
-    <path d="M1168 366H1186V348"/>
+  
+  <rect x="1" y="1" width="1198" height="428" rx="20" fill="url(#glass)" stroke="#30363d"/>
+  <rect x="1" y="1" width="1198" height="428" rx="20" fill="none" stroke="url(#aurora)" stroke-width="1.6" stroke-linecap="round"
+      stroke-dasharray="522 2738" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" from="3260" to="0" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  
+  <g clip-path="url(#clip)" opacity="0.55">
+    <circle class="drift" cx="936" cy="150.5" r="150" fill="#818cf8" filter="url(#blur40)" opacity="0.35"/>
+    <circle class="drift" style="animation-delay:-5s;animation-duration:18s" cx="1104" cy="344" r="120" fill="#e879f9" filter="url(#blur40)" opacity="0.25"/>
+    <circle class="drift" style="animation-delay:-9s;animation-duration:20s" cx="144" cy="43" r="130" fill="#22d3ee" filter="url(#blur40)" opacity="0.18"/>
   </g>
 
-  <text x="72" y="74" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" letter-spacing="5" fill="#E3C178" fill-opacity="0.85">◆  SHREYASWANI.VERCEL.APP</text>
-
-  <text x="68" y="160" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="84" font-weight="500" letter-spacing="1" fill="url(#goldS)">Shreyas Wani</text>
-
-  <text x="72" y="204" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#ECE6D9">Advanced Associate Software Engineer
-    <tspan fill="#8C8573">  ·  </tspan><tspan fill="#E3C178">Accenture</tspan></text>
-  <text x="72" y="236" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15.5" fill="#8C8573">I build cloud platforms that stay up — and break them on purpose to prove it.</text>
-
-  <g transform="translate(72 262)">
-        <rect width="96" height="34" rx="17" fill="#E3C178" fill-opacity="0.06" stroke="#E3C178" stroke-opacity="0.45"/>
-        <text x="48" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.4" fill="#E3C178">DEVOPS</text>
-      </g><g transform="translate(180 262)">
-        <rect width="87" height="34" rx="17" fill="#E3C178" fill-opacity="0.06" stroke="#E3C178" stroke-opacity="0.45"/>
-        <text x="43.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.4" fill="#E3C178">CLOUD</text>
-      </g><g transform="translate(279 262)">
-        <rect width="190" height="34" rx="17" fill="#E3C178" fill-opacity="0.06" stroke="#E3C178" stroke-opacity="0.45"/>
-        <text x="95" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.4" fill="#E3C178">SITE RELIABILITY</text>
-      </g><g transform="translate(481 262)">
-        <rect width="115" height="34" rx="17" fill="#E3C178" fill-opacity="0.06" stroke="#E3C178" stroke-opacity="0.45"/>
-        <text x="57.5" y="22" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.4" fill="#E3C178">PLATFORM</text>
-      </g>
-
-  <line x1="72" y1="330" x2="740" y2="330" stroke="url(#rule)"/>
-  <text x="72" y="355" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.5" fill="#5B564A">KUBERNETES · AWS · GCP · AZURE · ARGO CD · GO · KAFKA</text>
-  
-  <g>
-    <circle cx="985" cy="190" r="128" stroke="#E3C178" stroke-opacity="0.10"/>
-    <circle cx="985" cy="190" r="104" stroke="#E3C178" stroke-opacity="0.35" stroke-dasharray="2 7">
-      <animateTransform attributeName="transform" type="rotate" from="0 985 190" to="360 985 190" dur="60s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="985" cy="190" r="80" stroke="url(#goldS)" stroke-opacity="0.9"/>
-    <g>
-      <circle cx="1089" cy="190" r="3.5" fill="#F6E7C1"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 985 190" to="-360 985 190" dur="24s" repeatCount="indefinite"/>
+  <g class="fade">
+    <g transform="translate(72 64)">
+      <rect width="300" height="30" rx="15" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.35"/>
+      <circle class="ping" cx="18" cy="15" r="4" fill="#34d399"/>
+      <circle cx="18" cy="15" r="4" fill="#34d399"/>
+      <text x="32" y="19.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1" fill="#34d399">ALL SYSTEMS OPERATIONAL · 99.9%</text>
     </g>
-    <g>
-      <circle cx="985" cy="62" r="2.5" fill="#E3C178" fill-opacity="0.8"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 985 190" to="360 985 190" dur="40s" repeatCount="indefinite"/>
-    </g>
-    <text x="985" y="210" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="58" font-style="italic" fill="url(#goldS)">SW</text>
-    <text x="985" y="340" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">EST. 2022 · PUNE</text>
   </g>
+
+  <g class="rise" style="animation-delay:.1s">
+    <text x="68" y="172" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="-2" fill="url(#auroraMove)">Shreyas Wani</text>
+  </g>
+  <g class="rise" style="animation-delay:.25s">
+    <text x="72" y="214" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="500" fill="#e6edf3">Advanced Associate Software Engineer <tspan fill="#8b949e">@</tspan> <tspan fill="#818cf8" font-weight="700">Accenture</tspan></text>
+  </g>
+  <g class="rise" style="animation-delay:.4s">
+    <text x="72" y="262" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#e879f9">❯</text>
+    <text class="role" style="animation-delay:0s" x="96" y="262" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#22d3ee">DevOps Engineer</text><text class="role" style="animation-delay:3s" x="96" y="262" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#22d3ee">Cloud Engineer</text><text class="role" style="animation-delay:6s" x="96" y="262" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#22d3ee">Site Reliability Engineer</text><text class="role" style="animation-delay:9s" x="96" y="262" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#22d3ee">Platform Engineer</text>
+  </g>
+  <text x="72" y="292" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#8b949e" class="fade">Building cloud platforms that stay up — and breaking them on purpose to prove it.</text>
+  <g class="rise" style="animation-delay:0.6s"><g transform="translate(72 318)">
+      <rect width="99" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="49.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Kubernetes</text></g></g><g class="rise" style="animation-delay:0.6799999999999999s"><g transform="translate(179 318)">
+      <rect width="48" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="24" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">AWS</text></g></g><g class="rise" style="animation-delay:0.76s"><g transform="translate(235 318)">
+      <rect width="48" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="24" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">GCP</text></g></g><g class="rise" style="animation-delay:0.84s"><g transform="translate(291 318)">
+      <rect width="63" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="31.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Azure</text></g></g><g class="rise" style="animation-delay:0.9199999999999999s"><g transform="translate(362 318)">
+      <rect width="77" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="38.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Argo CD</text></g></g><g class="rise" style="animation-delay:1s"><g transform="translate(447 318)">
+      <rect width="41" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="20.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Go</text></g></g><g class="rise" style="animation-delay:1.08s"><g transform="translate(496 318)">
+      <rect width="63" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <text x="31.5" y="19.5" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#e6edf3">Kafka</text></g></g>
+  <text x="72" y="392" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#22d3ee" class="fade">↗ shreyaswani.vercel.app</text>
+  <text x="270" y="392" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#6e7681" class="fade">·  Pune, India</text>
+
+  <ellipse cx="905" cy="298" rx="268" ry="134" stroke="#818cf8" stroke-opacity="0.18" stroke-dasharray="3 8"/>
+    <circle r="4" fill="#e879f9" filter="url(#glow)"><animateMotion dur="14s" repeatCount="indefinite" path="M637,298 a268,134 0 1,0 536,0 a268,134 0 1,0 -536,0"/></circle>
+  
+    <g class="floatS" style="animation-duration:7s">
+      <polygon points="690,298 905,405.5 905,421.5 690,314" fill="#0b1120" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,405.5 1120,298 1120,314 905,421.5" fill="#080d18" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,190.5 1120,298 905,405.5 690,298" fill="#121a2b" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+      <polygon points="690,298 905,405.5 905,405.5 690,298" fill="none" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,405.5 1120,298 1120,298 905,405.5" fill="none" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,190.5 1120,298 905,405.5 690,298" fill="url(#gridFill)" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+    </g>
+  <g stroke="#818cf8" stroke-opacity="0.25" stroke-dasharray="2 6"><line x1="942.2" y1="217.39999999999998" x2="743.8" y2="316.6"/><line x1="867.8" y1="217.39999999999998" x2="1066.2" y2="316.6"/><line x1="1004.2" y1="248.4" x2="805.8" y2="347.6"/><line x1="805.8" y1="248.4" x2="1004.2" y2="347.6"/><line x1="1066.2" y1="279.4" x2="867.8" y2="378.6"/><line x1="743.8" y1="279.4" x2="942.2" y2="378.6"/></g>
+  <circle r="3.2" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="3s" repeatCount="indefinite" path="M942.2,217.39999999999998 L743.8,316.6"/></circle><circle r="3.2" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="3.6s" begin="-0s" repeatCount="indefinite" path="M1066.2,316.6 L867.8,217.39999999999998"/></circle><circle r="3.2" fill="#e879f9" filter="url(#glow)"><animateMotion dur="3.7s" repeatCount="indefinite" path="M1004.2,248.4 L805.8,347.6"/></circle><circle r="3.2" fill="#e879f9" filter="url(#glow)"><animateMotion dur="4.1s" begin="-1s" repeatCount="indefinite" path="M1004.2,347.6 L805.8,248.4"/></circle><circle r="3.2" fill="#818cf8" filter="url(#glow)"><animateMotion dur="4.4s" repeatCount="indefinite" path="M1066.2,279.4 L867.8,378.6"/></circle><circle r="3.2" fill="#818cf8" filter="url(#glow)"><animateMotion dur="4.6s" begin="-2s" repeatCount="indefinite" path="M942.2,378.6 L743.8,279.4"/></circle>
+  <g class="float" style="animation-delay:-0s;animation-duration:5s">
+      <polygon points="880,112 905,124.5 905,248.5 880,236" fill="#0d505a" stroke="#22d3ee" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,124.5 930,112 930,236 905,248.5" fill="#09353c" stroke="#22d3ee" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,99.5 930,112 905,124.5 880,112" fill="#1a9eb3" stroke="#22d3ee" stroke-width="1" stroke-linejoin="round"/><circle cx="905" cy="112" r="3" fill="#e6edf3" class="pulse" style="animation-delay:0s"/></g><g class="float" style="animation-delay:-0.7s;animation-duration:6s">
+      <polygon points="818,175 843,187.5 843,279.5 818,267" fill="#1f435c" stroke="#52b0f3" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="843,187.5 868,175 868,267 843,279.5" fill="#152c3d" stroke="#52b0f3" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="843,162.5 868,175 843,187.5 818,175" fill="#3e84b6" stroke="#52b0f3" stroke-width="1" stroke-linejoin="round"/><circle cx="843" cy="175" r="3" fill="#e6edf3" class="pulse" style="animation-delay:0.3s"/></g><g class="float" style="animation-delay:-2.0999999999999996s;animation-duration:6s">
+      <polygon points="942,171 967,183.5 967,279.5 942,267" fill="#1f435c" stroke="#52b0f3" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="967,183.5 992,171 992,267 967,279.5" fill="#152c3d" stroke="#52b0f3" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="967,158.5 992,171 967,183.5 942,171" fill="#3e84b6" stroke="#52b0f3" stroke-width="1" stroke-linejoin="round"/><circle cx="967" cy="171" r="3" fill="#e6edf3" class="pulse" style="animation-delay:0.8999999999999999s"/></g><g class="float" style="animation-delay:-1.4s;animation-duration:7s">
+      <polygon points="756,228 781,240.5 781,310.5 756,298" fill="#31355e" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="781,240.5 806,228 806,298 781,310.5" fill="#20233e" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="781,215.5 806,228 781,240.5 756,228" fill="#6169ba" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/><circle cx="781" cy="228" r="3" fill="#e6edf3" class="pulse" style="animation-delay:0.6s"/></g><g class="float" style="animation-delay:-2.8s;animation-duration:7s">
+      <polygon points="880,220 905,232.5 905,310.5 880,298" fill="#31355e" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,232.5 930,220 930,298 905,310.5" fill="#20233e" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,207.5 930,220 905,232.5 880,220" fill="#6169ba" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/><circle cx="905" cy="220" r="3" fill="#e6edf3" class="pulse" style="animation-delay:1.2s"/></g><g class="float" style="animation-delay:-4.199999999999999s;animation-duration:7s">
+      <polygon points="1004,226 1029,238.5 1029,310.5 1004,298" fill="#31355e" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1029,238.5 1054,226 1054,298 1029,310.5" fill="#20233e" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1029,213.5 1054,226 1029,238.5 1004,226" fill="#6169ba" stroke="#818cf8" stroke-width="1" stroke-linejoin="round"/><circle cx="1029" cy="226" r="3" fill="#e6edf3" class="pulse" style="animation-delay:1.7999999999999998s"/></g><g class="float" style="animation-delay:-3.5s;animation-duration:5s">
+      <polygon points="818,275 843,287.5 843,341.5 818,329" fill="#45325f" stroke="#b583f9" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="843,287.5 868,275 868,329 843,341.5" fill="#2d213e" stroke="#b583f9" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="843,262.5 868,275 843,287.5 818,275" fill="#8862bb" stroke="#b583f9" stroke-width="1" stroke-linejoin="round"/><circle cx="843" cy="275" r="3" fill="#e6edf3" class="pulse" style="animation-delay:1.5s"/></g><g class="float" style="animation-delay:-4.8999999999999995s;animation-duration:5s">
+      <polygon points="942,273 967,285.5 967,341.5 942,329" fill="#45325f" stroke="#b583f9" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="967,285.5 992,273 992,329 967,341.5" fill="#2d213e" stroke="#b583f9" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="967,260.5 992,273 967,285.5 942,273" fill="#8862bb" stroke="#b583f9" stroke-width="1" stroke-linejoin="round"/><circle cx="967" cy="273" r="3" fill="#e6edf3" class="pulse" style="animation-delay:2.1s"/></g><g class="float" style="animation-delay:-5.6s;animation-duration:6s">
+      <polygon points="880,322 905,334.5 905,372.5 880,360" fill="#582e5f" stroke="#e879f9" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,334.5 930,322 930,360 905,372.5" fill="#3a1e3e" stroke="#e879f9" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="905,309.5 930,322 905,334.5 880,322" fill="#ae5bbb" stroke="#e879f9" stroke-width="1" stroke-linejoin="round"/><circle cx="905" cy="322" r="3" fill="#e6edf3" class="pulse" style="animation-delay:2.4s"/></g>
+  <g class="floatS" style="animation-delay:-1s"><g transform="translate(1010 62)">
+      <rect width="141" height="28" rx="8" fill="#0d1117" fill-opacity="0.85" stroke="#30363d"/>
+      <circle cx="14" cy="14" r="3.5" fill="#34d399"/>
+      <text x="25" y="18.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#e6edf3">argo-cd  synced</text></g></g>
+  <g class="floatS" style="animation-delay:-2.5s"><g transform="translate(650 108)">
+      <rect width="99" height="28" rx="8" fill="#0d1117" fill-opacity="0.85" stroke="#30363d"/>
+      <circle cx="14" cy="14" r="3.5" fill="#22d3ee"/>
+      <text x="25" y="18.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#e6edf3">p99  42ms</text></g></g>
+  <g class="floatS" style="animation-delay:-1.8s"><g transform="translate(1015 360)">
+      <rect width="141" height="28" rx="8" fill="#0d1117" fill-opacity="0.85" stroke="#30363d"/>
+      <circle cx="14" cy="14" r="3.5" fill="#e879f9"/>
+      <text x="25" y="18.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#e6edf3">pods  9/9 ready</text></g></g>
 </svg>
