@@ -28,7 +28,7 @@ const Q_MAIN = `query($login:String!){
       totalPullRequestReviewContributions
       totalIssueContributions
       totalRepositoriesWithContributedCommits
-      commitContributionsByRepository(maxRepositories:6){ repository{ name } contributions{ totalCount } }
+      commitContributionsByRepository(maxRepositories:12){ repository{ name isPrivate } contributions{ totalCount } }
       contributionCalendar{ totalContributions weeks{ contributionDays{ date contributionCount } } }
     }
   }
@@ -301,7 +301,7 @@ function insights(u, commitTimes) {
 function reposLangs(u) {
   const cc = u.contributionsCollection;
   const W = 1200, H = 360, half = 600;
-  const repos = cc.commitContributionsByRepository.map((r) => [r.repository.name, r.contributions.totalCount]).slice(0, 6);
+  const repos = cc.commitContributionsByRepository.filter((r) => !r.repository.isPrivate).map((r) => [r.repository.name, r.contributions.totalCount]).slice(0, 6);
   const rMax = Math.max(1, ...repos.map((r) => r[1]));
   const rows = repos.map(([name, n], i) => {
     const y = 112 + i * 38, w = Math.max(6, (n / rMax) * 300);
