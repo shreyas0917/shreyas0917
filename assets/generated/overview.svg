@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" fill="none">
+<defs>
+  
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#A8823C"/>
+    <stop offset="0.35" stop-color="#E3C178"/>
+    <stop offset="0.5" stop-color="#F6E7C1"/>
+    <stop offset="0.65" stop-color="#E3C178"/>
+    <stop offset="1" stop-color="#A8823C"/>
+    
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E3C178" stop-opacity="0.55"/>
+    <stop offset="0.5" stop-color="#2A2419" stop-opacity="1"/>
+    <stop offset="1" stop-color="#E3C178" stop-opacity="0.35"/>
+  </linearGradient>
+  
+</defs>
+<rect x="0.5" y="0.5" width="1199" height="269" rx="16" fill="#0A0A0C" stroke="url(#edge)"/>
+<g stroke="#E3C178" stroke-opacity="0.7" stroke-width="1">
+    <path d="M14 32V14H32"/>
+    <path d="M1168 14H1186V32"/>
+    <path d="M14 238V256H32"/>
+    <path d="M1168 256H1186V238"/>
+  </g>
+      <text x="171.2" y="64" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">CONTRIBUTIONS</text>
+      <text x="171.2" y="122" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="52" font-weight="500" fill="url(#gold)">381</text>
+      <text x="171.2" y="148" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5B564A">last 12 months</text><line x1="278.4" y1="58" x2="278.4" y2="150" stroke="#2A2419"/>
+      <text x="385.59999999999997" y="64" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">COMMITS</text>
+      <text x="385.59999999999997" y="122" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="52" font-weight="500" fill="url(#gold)">304</text>
+      <text x="385.59999999999997" y="148" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5B564A">last 12 months</text><line x1="492.8" y1="58" x2="492.8" y2="150" stroke="#2A2419"/>
+      <text x="600" y="64" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">PULL REQUESTS</text>
+      <text x="600" y="122" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="52" font-weight="500" fill="url(#gold)">21</text>
+      <text x="600" y="148" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5B564A">all time</text><line x1="707.2" y1="58" x2="707.2" y2="150" stroke="#2A2419"/>
+      <text x="814.4000000000001" y="64" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">REPOSITORIES</text>
+      <text x="814.4000000000001" y="122" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="52" font-weight="500" fill="url(#gold)">44</text>
+      <text x="814.4000000000001" y="148" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5B564A">0 ★ earned</text><line x1="921.6" y1="58" x2="921.6" y2="150" stroke="#2A2419"/>
+      <text x="1028.8" y="64" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">CURRENT STREAK</text>
+      <text x="1028.8" y="122" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Didot,'Bodoni 72',Georgia,'Times New Roman',serif" font-size="52" font-weight="500" fill="url(#gold)">6d</text>
+      <text x="1028.8" y="148" text-anchor="middle" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5B564A">longest 6d</text>
+    <text x="64" y="184" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="3" fill="#8C8573">LANGUAGES · BY CODE VOLUME</text>
+    <clipPath id="bar"><rect x="64" y="196" width="1072" height="10" rx="5"/></clipPath>
+    <g clip-path="url(#bar)"><rect x="64" y="196" width="1072" height="10" fill="#0F0F13"/><rect x="64" y="196" width="339.37718992979427" height="10" fill="#F1D798"/><rect x="406.37718992979427" y="196" width="257.2066846676441" height="10" fill="#E3C178"/><rect x="666.5838745974384" y="196" width="164.90649938700528" height="10" fill="#C9A35A"/><rect x="834.4903739844436" y="196" width="94.13709140200844" height="10" fill="#A8823C"/><rect x="931.6274653864521" y="196" width="60.1646122668136" height="10" fill="#7E6230"/><rect x="994.7920776532657" y="196" width="138.20792234673434" height="10" fill="#4E4130"/></g>
+    <g transform="translate(64 238)"><rect width="9" height="9" rx="2" y="-8" fill="#F1D798"/>
+      <text x="17" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#ECE6D9" fill-opacity="0.85">TypeScript  31.9%</text></g><g transform="translate(233.8 238)"><rect width="9" height="9" rx="2" y="-8" fill="#E3C178"/>
+      <text x="17" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#ECE6D9" fill-opacity="0.85">Python  24.3%</text></g><g transform="translate(374 238)"><rect width="9" height="9" rx="2" y="-8" fill="#C9A35A"/>
+      <text x="17" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#ECE6D9" fill-opacity="0.85">JavaScript  15.7%</text></g><g transform="translate(543.8 238)"><rect width="9" height="9" rx="2" y="-8" fill="#A8823C"/>
+      <text x="17" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#ECE6D9" fill-opacity="0.85">Go  9.1%</text></g><g transform="translate(647 238)"><rect width="9" height="9" rx="2" y="-8" fill="#7E6230"/>
+      <text x="17" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#ECE6D9" fill-opacity="0.85">Jupyter Notebook  5.9%</text></g><g transform="translate(853.8 238)"><rect width="9" height="9" rx="2" y="-8" fill="#4E4130"/>
+      <text x="17" y="0" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#ECE6D9" fill-opacity="0.85">Other  13.2%</text></g>
+</svg>
