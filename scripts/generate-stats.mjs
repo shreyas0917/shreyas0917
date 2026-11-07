@@ -154,8 +154,8 @@ function skyline(u) {
   const k = 0.8, off = (1 - k) / 2;
   const body = bars.map(({ c, r, n, date }) => {
     const A = P(c + off, r + off), B = P(c + 1 - off, r + off), Cc = P(c + 1 - off, r + 1 - off), D = P(c + off, r + 1 - off);
-    const t = n / max;
-    const h = n ? 4 + Math.pow(t, 0.75) * 96 : 1.4;
+    const t = Math.log1p(n) / Math.log1p(max);
+    const h = n ? 6 + Math.pow(t, 1.3) * 104 : 1.4;
     const up = (p) => [p[0], p[1] - h];
     const col = n ? ramp(t) : null;
     const top = n ? shade(col, -0.05) : "#1c2129";
