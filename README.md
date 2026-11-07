@@ -1,11 +1,74 @@
-# 💫 About Me:
-I’m a Computer Engineering student and full-stack developer who enjoys building scalable, production-grade systems across backend, ML, and data engineering. I’ve worked on projects ranging from distributed systems and system design (Kafka-like broker, URL shortener) to ML-powered recommendation engines and big-data analytics with PySpark.<br><br>I’m currently focused on designing high-performance backend services, data pipelines, and ML-driven applications, while sharpening my skills in system architecture, APIs, and distributed computing. I enjoy turning complex problems into clean, reliable solutions that scale in real-world conditions.<br><br>I’m looking to collaborate on backend, ML, data engineering, or full-stack projects, especially those involving scalability, performance, or real-time systems. I’m always happy to help with system design, Python, C++, React, ML basics, or project structuring.<br><br>I’m currently learning more about distributed systems internals, large-scale data processing, and production ML workflows.<br><br>⚡ Fun fact: I like reverse-engineering real-world systems and rebuilding simplified versions to understand how they scale and fail in production.
+<div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Shreyas+Wani+%F0%9F%91%8B;Backend+%26+Distributed+Systems;SRE+%2F+DevOps+%E2%80%A2+AI+Engineering;I+rebuild+real+systems+to+see+how+they+fail" alt="Typing intro" />
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyas-wani) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shreyaswani04@gmail.com) 
+**Software Engineer @ Accenture** · B.E. Computer Engineering '26 · Pune, India
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+<a href="https://shreyaswani.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://linkedin.com/in/shreyas-wani"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:shreyaswani2905@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</div>
+
+---
+
+### 🧭 About
+
+I build backend systems the way production treats them: idempotent, observable, and designed for the failure case first.
+Most of my projects start as *"how does X actually work under load?"* — then I rebuild a smaller version and break it on purpose.
+
+- 🔭 **Now building:** `SeatLock` — BookMyShow-style seat locking in Go (Redis holds, Postgres as source of truth)
+- 🛠️ **Also running:** `MarketPulse` — an SRE playground with SLOs, GitOps and fault-injection drills
+- 🏢 **At work:** SAP BTP + CAP (Node.js) development
+- 🎓 Completed Accenture's *Cloud Native Microservices* program — Spring Boot, Docker, Kubernetes, DevOps
+
+---
+
+### 🚀 Featured Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**SeatLock**](https://github.com/shreyas0917/seatlock) | Concurrent seat booking with time-bound holds and a fail-closed policy when Redis is down | Go · PostgreSQL · Redis |
+| [**MarketPulse**](https://github.com/shreyas0917/marketpulse) | Simulated market-data service run like prod: 30-day SLOs, alerting, Argo CD, chaos drills & postmortems | Kubernetes · Argo CD · Redis Streams |
+| [**EventGuard**](https://github.com/shreyas0917/EventGuard) | Idempotent payment pipeline — exactly-once effects over at-least-once delivery | Kafka · Distributed systems |
+| [**Tax P&L Engine**](https://github.com/shreyas0917/tax-pl-engine) | Multi-broker capital-gains & tax P&L for Indian equity traders | Go · React · Docker |
+| [**Retrace**](https://github.com/shreyas0917/Retrace) | Diagnoses *where* a RAG pipeline failed — retrieval, ranking or generation | Python · LLMs · RAG |
+| [**Invoice 3-Way Match**](https://github.com/shreyas0917/Invoice-3-Way-Match-Public) | PO ↔ GRN ↔ Invoice matching with an exception workbench | SAP CAP · Node.js · Fiori |
+| [**URL Shortener**](https://github.com/shreyas0917/Modern_URL_Shortener) | System-design take on a URL shortener — caching, ID generation, analytics | Redis · PostgreSQL |
+
+---
+
+### 🧰 Tech Stack
+
+<p align="center">
+  <b>Languages</b><br/>
+  <img src="https://skillicons.dev/icons?i=go,java,ts,js,py,cpp" />
+  <br/><br/>
+  <b>Backend & Data</b><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,postgres,redis,kafka,mongodb,mysql,supabase" />
+  <br/><br/>
+  <b>Cloud & DevOps</b><br/>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,prometheus,grafana,githubactions,linux" />
+  <br/><br/>
+  <b>Frontend</b><br/>
+  <img src="https://skillicons.dev/icons?i=react,tailwind,vercel" />
+</p>
+
+---
+
+### 📊 GitHub Activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=shreyas0917&show_icons=true&hide_border=true&theme=github_dark&count_private=true" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=shreyas0917&hide_border=true&theme=github-dark-blue" />
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=shreyas0917&theme=github-compact&hide_border=true&area=true" />
+
+</div>
+
+---
+
+<div align="center">
+<sub>⚡ Fun fact: I read postmortems for fun — then try to cause the same outage in my own projects.</sub>
+</div>
