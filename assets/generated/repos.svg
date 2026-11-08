@@ -74,8 +74,8 @@
       <text x="548" y="201" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#8b949e">70</text></g><g class="rise" style="animation-delay:0.21000000000000002s">
       <text x="40" y="239" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#e6edf3">Retrace</text>
       <rect x="230" y="226" width="300" height="18" rx="9" fill="#161b22"/>
-      <rect class="gx" style="animation-delay:0.44s" x="230" y="226" width="78.9" height="18" rx="9" fill="url(#aurora)" opacity="0.7"/>
-      <text x="548" y="239" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#8b949e">25</text></g><g class="rise" style="animation-delay:0.28s">
+      <rect class="gx" style="animation-delay:0.44s" x="230" y="226" width="142.1" height="18" rx="9" fill="url(#aurora)" opacity="0.7"/>
+      <text x="548" y="239" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#8b949e">45</text></g><g class="rise" style="animation-delay:0.28s">
       <text x="40" y="277" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#e6edf3">Zorvyn_Backend_Assign…</text>
       <rect x="230" y="264" width="300" height="18" rx="9" fill="#161b22"/>
       <rect class="gx" style="animation-delay:0.52s" x="230" y="264" width="56.8" height="18" rx="9" fill="url(#aurora)" opacity="0.6"/>
@@ -87,32 +87,32 @@
   <text x="650" y="56" text-anchor="#e879f9" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">LANGUAGES · BY CODE VOLUME</text>
   <text x="650" y="88" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#e6edf3">44 repositories</text>
   <circle cx="730" cy="205" r="70" stroke="#161b22" stroke-width="22"/>
-  <circle cx="730" cy="205" r="70" stroke="#22d3ee" stroke-width="22" stroke-dasharray="117.8 439.8" stroke-dashoffset="0" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;117.8 439.8" dur="1s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#818cf8" stroke-width="22" stroke-dasharray="106.6 439.8" stroke-dashoffset="-120.8" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;106.6 439.8" dur="1.15s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#e879f9" stroke-width="22" stroke-dasharray="61 439.8" stroke-dashoffset="-230.3" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;61 439.8" dur="1.3s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#34d399" stroke-width="22" stroke-dasharray="54.8 439.8" stroke-dashoffset="-294.3" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;54.8 439.8" dur="1.45s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#fbbf24" stroke-width="22" stroke-dasharray="20.1 439.8" stroke-dashoffset="-352.1" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;20.1 439.8" dur="1.6s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#6e7681" stroke-width="22" stroke-dasharray="61.6 439.8" stroke-dashoffset="-375.2" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;61.6 439.8" dur="1.75s" fill="freeze"/></circle>
+  <circle cx="730" cy="205" r="70" stroke="#22d3ee" stroke-width="22" stroke-dasharray="122.7 439.8" stroke-dashoffset="0" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;122.7 439.8" dur="1s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#818cf8" stroke-width="22" stroke-dasharray="104.6 439.8" stroke-dashoffset="-125.7" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;104.6 439.8" dur="1.15s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#e879f9" stroke-width="22" stroke-dasharray="59.2 439.8" stroke-dashoffset="-233.3" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;59.2 439.8" dur="1.3s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#34d399" stroke-width="22" stroke-dasharray="53.3 439.8" stroke-dashoffset="-295.6" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;53.3 439.8" dur="1.45s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#fbbf24" stroke-width="22" stroke-dasharray="19.5 439.8" stroke-dashoffset="-351.8" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;19.5 439.8" dur="1.6s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#6e7681" stroke-width="22" stroke-dasharray="62.5 439.8" stroke-dashoffset="-374.3" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;62.5 439.8" dur="1.75s" fill="freeze"/></circle>
   <text x="730" y="211" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="800" fill="#e6edf3">TypeScript</text>
   <text x="730" y="227" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9" letter-spacing="1.5" fill="#6e7681">TOP</text>
   <g class="rise" style="animation-delay:0.2s">
     <rect x="850" y="114" width="10" height="10" rx="3" fill="#22d3ee"/>
     <text x="870" y="123" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">TypeScript</text>
-    <text x="1150" y="123" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">27.5%</text></g><g class="rise" style="animation-delay:0.28s">
+    <text x="1150" y="123" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">28.6%</text></g><g class="rise" style="animation-delay:0.28s">
     <rect x="850" y="150" width="10" height="10" rx="3" fill="#818cf8"/>
     <text x="870" y="159" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Python</text>
-    <text x="1150" y="159" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">24.9%</text></g><g class="rise" style="animation-delay:0.36s">
+    <text x="1150" y="159" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">24.5%</text></g><g class="rise" style="animation-delay:0.36s">
     <rect x="850" y="186" width="10" height="10" rx="3" fill="#e879f9"/>
     <text x="870" y="195" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">JavaScript</text>
-    <text x="1150" y="195" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">14.5%</text></g><g class="rise" style="animation-delay:0.44s">
+    <text x="1150" y="195" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">14.2%</text></g><g class="rise" style="animation-delay:0.44s">
     <rect x="850" y="222" width="10" height="10" rx="3" fill="#34d399"/>
     <text x="870" y="231" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Go</text>
-    <text x="1150" y="231" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">13.1%</text></g><g class="rise" style="animation-delay:0.52s">
+    <text x="1150" y="231" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">12.8%</text></g><g class="rise" style="animation-delay:0.52s">
     <rect x="850" y="258" width="10" height="10" rx="3" fill="#fbbf24"/>
     <text x="870" y="267" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Jupyter Notebook</text>
-    <text x="1150" y="267" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">5.2%</text></g><g class="rise" style="animation-delay:0.6000000000000001s">
+    <text x="1150" y="267" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">5.1%</text></g><g class="rise" style="animation-delay:0.6000000000000001s">
     <rect x="850" y="294" width="10" height="10" rx="3" fill="#6e7681"/>
     <text x="870" y="303" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Other</text>
-    <text x="1150" y="303" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">14.7%</text></g>
+    <text x="1150" y="303" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">14.9%</text></g>
 </svg>
