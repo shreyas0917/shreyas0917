@@ -74,8 +74,8 @@
       <text x="548" y="201" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#8b949e">87</text></g><g class="rise" style="animation-delay:0.21000000000000002s">
       <text x="40" y="239" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#e6edf3">seatlock</text>
       <rect x="230" y="226" width="300" height="18" rx="9" fill="#161b22"/>
-      <rect class="gx" style="animation-delay:0.44s" x="230" y="226" width="221.1" height="18" rx="9" fill="url(#aurora)" opacity="0.7"/>
-      <text x="548" y="239" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#8b949e">70</text></g><g class="rise" style="animation-delay:0.28s">
+      <rect class="gx" style="animation-delay:0.44s" x="230" y="226" width="240" height="18" rx="9" fill="url(#aurora)" opacity="0.7"/>
+      <text x="548" y="239" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#8b949e">76</text></g><g class="rise" style="animation-delay:0.28s">
       <text x="40" y="277" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#e6edf3">Zorvyn_Backend_Assign…</text>
       <rect x="230" y="264" width="300" height="18" rx="9" fill="#161b22"/>
       <rect class="gx" style="animation-delay:0.52s" x="230" y="264" width="56.8" height="18" rx="9" fill="url(#aurora)" opacity="0.6"/>
@@ -89,11 +89,11 @@
   <circle cx="730" cy="205" r="70" stroke="#161b22" stroke-width="22"/>
   <circle cx="730" cy="205" r="70" stroke="#22d3ee" stroke-width="22" stroke-dasharray="121.3 439.8" stroke-dashoffset="0" transform="rotate(-90 730 205)">
       <animate attributeName="stroke-dasharray" values="0 439.8;121.3 439.8" dur="1s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#818cf8" stroke-width="22" stroke-dasharray="106.9 439.8" stroke-dashoffset="-124.3" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;106.9 439.8" dur="1.15s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#e879f9" stroke-width="22" stroke-dasharray="58.6 439.8" stroke-dashoffset="-234.2" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;58.6 439.8" dur="1.3s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#34d399" stroke-width="22" stroke-dasharray="52.6 439.8" stroke-dashoffset="-295.8" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;52.6 439.8" dur="1.45s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#fbbf24" stroke-width="22" stroke-dasharray="19.2 439.8" stroke-dashoffset="-351.4" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;19.2 439.8" dur="1.6s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#6e7681" stroke-width="22" stroke-dasharray="63.2 439.8" stroke-dashoffset="-373.6" transform="rotate(-90 730 205)">
-      <animate attributeName="stroke-dasharray" values="0 439.8;63.2 439.8" dur="1.75s" fill="freeze"/></circle>
+      <animate attributeName="stroke-dasharray" values="0 439.8;106.9 439.8" dur="1.15s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#e879f9" stroke-width="22" stroke-dasharray="58.5 439.8" stroke-dashoffset="-234.2" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;58.5 439.8" dur="1.3s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#34d399" stroke-width="22" stroke-dasharray="52.6 439.8" stroke-dashoffset="-295.7" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;52.6 439.8" dur="1.45s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#fbbf24" stroke-width="22" stroke-dasharray="19.2 439.8" stroke-dashoffset="-351.3" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;19.2 439.8" dur="1.6s" fill="freeze"/></circle><circle cx="730" cy="205" r="70" stroke="#6e7681" stroke-width="22" stroke-dasharray="63.3 439.8" stroke-dashoffset="-373.6" transform="rotate(-90 730 205)">
+      <animate attributeName="stroke-dasharray" values="0 439.8;63.3 439.8" dur="1.75s" fill="freeze"/></circle>
   <text x="730" y="211" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="800" fill="#e6edf3">TypeScript</text>
   <text x="730" y="227" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9" letter-spacing="1.5" fill="#6e7681">TOP</text>
   <g class="rise" style="animation-delay:0.2s">
@@ -108,10 +108,10 @@
     <text x="1150" y="195" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">14.0%</text></g><g class="rise" style="animation-delay:0.44s">
     <rect x="850" y="222" width="10" height="10" rx="3" fill="#34d399"/>
     <text x="870" y="231" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Go</text>
-    <text x="1150" y="231" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">12.7%</text></g><g class="rise" style="animation-delay:0.52s">
+    <text x="1150" y="231" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">12.6%</text></g><g class="rise" style="animation-delay:0.52s">
     <rect x="850" y="258" width="10" height="10" rx="3" fill="#fbbf24"/>
     <text x="870" y="267" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Jupyter Notebook</text>
-    <text x="1150" y="267" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">5.1%</text></g><g class="rise" style="animation-delay:0.6000000000000001s">
+    <text x="1150" y="267" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">5.0%</text></g><g class="rise" style="animation-delay:0.6000000000000001s">
     <rect x="850" y="294" width="10" height="10" rx="3" fill="#6e7681"/>
     <text x="870" y="303" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#e6edf3">Other</text>
     <text x="1150" y="303" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8b949e">15.1%</text></g>

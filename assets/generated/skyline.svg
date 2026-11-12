@@ -58,15 +58,15 @@
     </rect>
   <g clip-path="url(#clip)"><circle class="drift" cx="900" cy="330" r="200" fill="#818cf8" opacity="0.12" filter="url(#blur40)"/></g>
   <text x="56" y="52" text-anchor="#818cf8" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">CONTRIBUTION SKYLINE · 12 MONTHS</text>
-  <text x="54" y="104" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5" fill="url(#auroraMove)">547</text>
-  <text x="58" y="128" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b949e">contributions across 39 active days</text>
+  <text x="54" y="104" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5" fill="url(#auroraMove)">553</text>
+  <text x="58" y="128" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b949e">contributions across 40 active days</text>
   
     <g class="rise"><text x="560" y="52" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">COMMITS</text>
-    <text x="560" y="90" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#22d3ee">477</text>
+    <text x="560" y="90" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#22d3ee">483</text>
     <text x="560" y="110" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6e7681">last 12 months</text></g>
   
     <g class="rise"><text x="720" y="52" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">CURRENT STREAK</text>
-    <text x="720" y="90" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#818cf8">0d</text>
+    <text x="720" y="90" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#818cf8">1d</text>
     <text x="720" y="110" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6e7681">longest 5d</text></g>
   
     <g class="rise"><text x="880" y="52" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.5" fill="#8b949e">BEST DAY</text>
@@ -1153,10 +1153,10 @@
 <polygon points="971.2,432.3 984.8,434.5 976.8,441 963.2,438.9" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.2s"><title>0 contributions on 2026-09-26</title>
 <polygon points="923.8,436 915.8,442.5 915.8,441.1 923.8,434.6" fill="#14181f"/>
 <polygon points="902.2,440.4 915.8,442.5 915.8,441.1 902.2,439" fill="#10141a"/>
-<polygon points="910.2,432.4 923.8,434.6 915.8,441.1 902.2,439" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>0 contributions on 2026-11-12</title>
-<polygon points="1062.8,438.5 1054.8,445 1054.8,443.6 1062.8,437.1" fill="#14181f"/>
-<polygon points="1041.2,442.9 1054.8,445 1054.8,443.6 1041.2,441.5" fill="#10141a"/>
-<polygon points="1049.2,434.9 1062.8,437.1 1054.8,443.6 1041.2,441.5" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>56 contributions on 2026-10-23</title>
+<polygon points="910.2,432.4 923.8,434.6 915.8,441.1 902.2,439" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>6 contributions on 2026-11-12</title>
+<polygon points="1062.8,438.5 1054.8,445 1054.8,403.6 1062.8,397" fill="#405288"/>
+<polygon points="1041.2,442.9 1054.8,445 1054.8,403.6 1041.2,401.4" fill="#2c395e"/>
+<polygon points="1049.2,394.9 1062.8,397 1054.8,403.6 1041.2,401.4" fill="#6f8eeb" stroke="#8aa5f8" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>56 contributions on 2026-10-23</title>
 <polygon points="1001.8,438.6 993.8,445.1 993.8,347.4 1001.8,340.9" fill="#754589"/>
 <polygon points="980.2,443 993.8,445.1 993.8,347.4 980.2,345.3" fill="#51305f"/>
 <polygon points="988.2,338.7 1001.8,340.9 993.8,347.4 980.2,345.3" fill="#ca77ed" stroke="#db91fa" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.2s"><title>0 contributions on 2026-10-03</title>
@@ -1174,7 +1174,10 @@
 <polygon points="1022.2,363.5 1035.8,365.7 1027.8,372.2 1014.2,370.1" fill="#ad7ced" stroke="#c195fa" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>0 contributions on 2026-10-17</title>
 <polygon points="974.8,444.1 966.8,450.6 966.8,449.2 974.8,442.7" fill="#14181f"/>
 <polygon points="953.2,448.5 966.8,450.6 966.8,449.2 953.2,447.1" fill="#10141a"/>
-<polygon points="961.2,440.5 974.8,442.7 966.8,449.2 953.2,447.1" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>44 contributions on 2026-10-24</title>
+<polygon points="961.2,440.5 974.8,442.7 966.8,449.2 953.2,447.1" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.4s"><title>0 contributions on 2026-11-13</title>
+<polygon points="1052.8,446.7 1044.8,453.2 1044.8,451.8 1052.8,445.3" fill="#14181f"/>
+<polygon points="1031.2,451.1 1044.8,453.2 1044.8,451.8 1031.2,449.7" fill="#10141a"/>
+<polygon points="1039.2,443.1 1052.8,445.3 1044.8,451.8 1031.2,449.7" fill="#1c2129" stroke="#262c36" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>44 contributions on 2026-10-24</title>
 <polygon points="991.8,446.8 983.8,453.3 983.8,362.5 991.8,356" fill="#6f4689"/>
 <polygon points="970.2,451.2 983.8,453.3 983.8,362.5 970.2,360.4" fill="#4d305f"/>
 <polygon points="978.2,353.8 991.8,356 983.8,362.5 970.2,360.4" fill="#c079ed" stroke="#d292fa" stroke-width="0.5" stroke-opacity="0.6"/></g><g class="gr" style="animation-delay:1.3s"><title>0 contributions on 2026-10-31</title>
