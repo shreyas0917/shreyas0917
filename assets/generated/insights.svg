@@ -61,20 +61,20 @@
   <text x="40" y="88" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#e6edf3">How I ship</text>
   <circle cx="120" cy="220" r="74" stroke="#161b22" stroke-width="16"/>
   <circle cx="120" cy="220" r="74" stroke="#22d3ee" stroke-width="16" stroke-linecap="butt"
-      stroke-dasharray="426.4 465" stroke-dashoffset="0" transform="rotate(-90 120 220)">
-      <animate attributeName="stroke-dasharray" values="0 465;426.4 465" dur="1s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#818cf8" stroke-width="16" stroke-linecap="butt"
-      stroke-dasharray="32.6 465" stroke-dashoffset="-429.4" transform="rotate(-90 120 220)">
-      <animate attributeName="stroke-dasharray" values="0 465;32.6 465" dur="1.2s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#e879f9" stroke-width="16" stroke-linecap="butt"
+      stroke-dasharray="426.1 465" stroke-dashoffset="0" transform="rotate(-90 120 220)">
+      <animate attributeName="stroke-dasharray" values="0 465;426.1 465" dur="1s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#818cf8" stroke-width="16" stroke-linecap="butt"
+      stroke-dasharray="32.8 465" stroke-dashoffset="-429.1" transform="rotate(-90 120 220)">
+      <animate attributeName="stroke-dasharray" values="0 465;32.8 465" dur="1.2s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#e879f9" stroke-width="16" stroke-linecap="butt"
       stroke-dasharray="0 465" stroke-dashoffset="-465" transform="rotate(-90 120 220)">
       <animate attributeName="stroke-dasharray" values="0 465;0 465" dur="1.4s" fill="freeze"/></circle><circle cx="120" cy="220" r="74" stroke="#34d399" stroke-width="16" stroke-linecap="butt"
       stroke-dasharray="0 465" stroke-dashoffset="-465" transform="rotate(-90 120 220)">
       <animate attributeName="stroke-dasharray" values="0 465;0 465" dur="1.6s" fill="freeze"/></circle>
-  <text x="120" y="226" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="800" fill="#e6edf3">523</text>
+  <text x="120" y="226" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="800" fill="#e6edf3">519</text>
   <text x="120" y="246" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" letter-spacing="2" fill="#6e7681">TOTAL</text>
   <g class="rise" style="animation-delay:0.2s">
     <rect x="232" y="158" width="10" height="10" rx="3" fill="#22d3ee"/>
     <text x="252" y="167" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b949e">Commits</text>
-    <text x="370" y="167" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#e6edf3">483</text></g><g class="rise" style="animation-delay:0.30000000000000004s">
+    <text x="370" y="167" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#e6edf3">479</text></g><g class="rise" style="animation-delay:0.30000000000000004s">
     <rect x="232" y="192" width="10" height="10" rx="3" fill="#818cf8"/>
     <text x="252" y="201" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b949e">Pull requests</text>
     <text x="370" y="201" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#e6edf3">40</text></g><g class="rise" style="animation-delay:0.4s">
